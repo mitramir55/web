@@ -31,21 +31,7 @@ module.exports = {
         display: `standalone`,
         icon: 'src/images/favicon.png',
       },
-    },{
-      resolve: `@conradlin/gatsby-source-notion-database`,
-      options: {
-        sourceConfig: [
-          {
-            name: 'posts',
-            table: 'https://www.notion.so/conradlin/1aa283fcd5ae4a73ba0f73c062de745e?v=6a40014bee144152b55203e2caf0c02e',
-            cacheType: 'html'
-          }
-        ]
-      }
     },
     
   ],
-  siteMetadata: {
-    siteTitle: 'mitramir',
-  }
 };
