@@ -25,7 +25,7 @@ module.exports = {
       options: {
         name: `MitraMir`,
         short_name: `MitraMir`,
-        start_url: `https://mitramir.netlify.app`,
+        start_url: `/`,
         background_color: `#fff`,
         theme_color: `#b00234`,
         display: `standalone`,
