@@ -28,8 +28,8 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'project1.jpg',
+    title: 'Coding and Analysis',
     info: '',
     info2: '',
     url: '',
@@ -38,7 +38,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'writings',
     info: '',
     info2: '',
     url: '',
@@ -47,7 +47,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'YouTube',
     info: '',
     info2: '',
     url: '',
@@ -67,7 +67,7 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
+      name: 'YouTube',
       url: '',
     },
     {
@@ -90,5 +90,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
