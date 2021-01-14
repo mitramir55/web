@@ -26,7 +26,7 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Things I do" />
+          <Title title="Projects" />
           {projects.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
 
@@ -41,11 +41,11 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__text">
-                      <h3 className="project-wrapper__text-title">{title || 'Coding and Analysis'}</h3>
+                      <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
                       <div>
                         <p>
                           {info ||
-                            'I love making cool visualizations and analysis that gives insights into the real world and Kaggle was one of the best places for me to get data and also share my thoughts with the world. You can see some of my notebooks and code by clicking on the picture below.'}
+                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
@@ -53,9 +53,9 @@ const Projects = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
-                        href={'https://www.kaggle.com/mitramir5' || '#!'}
+                        href={url || '#!'}
                       >
-                        Show me your Kaggle!
+                        Show me!
                       </a>
 
                       {repo && (
@@ -63,7 +63,7 @@ const Projects = () => {
                           target="_blank"
                           rel="noopener noreferrer"
                           className="cta-btn text-color-main"
-                          href={'https://github.com/mitramir55'}
+                          href={repo}
                         >
                           Github
                         </a>
