@@ -32,8 +32,8 @@ export const projectsData = [
     title: 'Coding and Analysis',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.kaggle.com/mitramir5',
+    repo: 'https://github.com/mitramir55', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -42,16 +42,16 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    
   },
   {
     id: nanoid(),
     img: 'project.jpg',
     title: 'YouTube',
-    info: '',
+    info: 'bluh bluh bluh',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.youtube.com/channel/UC5he3ZiPPZzjP_KZhq3LOHg',
+    
   },
 ];
 
