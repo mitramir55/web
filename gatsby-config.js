@@ -27,7 +27,7 @@ module.exports = {
         short_name: `MitraMir`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#b00234`,
+        theme_color: `#b00225`,
         display: `standalone`,
         icon: 'src/images/favicon.png',
       },
