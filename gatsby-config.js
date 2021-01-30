@@ -25,9 +25,9 @@ module.exports = {
       options: {
         name: `MitraMir`,
         short_name: `MitraMir`,
-        start_url: `/`,
+        start_url: `https://mitramirshafiee.ir/`,
         background_color: `#fff`,
-        theme_color: `#b00225`,
+        theme_color: `#02aab0`,
         display: `standalone`,
         icon: 'src/images/favicon.png',
       },
