@@ -30,7 +30,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project1.jpg',
     title: 'Coding and Analysis',
-    info: '',
+    info: 'I love making cool visualizations and analysis that gives insights into the real world and Kaggle was one of the best places for me to get data and also share my thoughts with the world. You can see some of my notebooks and code by clicking on the picture below.',
     info2: '',
     url: 'https://www.kaggle.com/mitramir5',
     repo: 'https://github.com/mitramir55', // if no repo, the button will not show up
@@ -39,7 +39,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'writings',
-    info: '',
+    info: "As it is said, The aintest ink is more powerful than the strongest memory!\n Keeping this in mind, I try to write down whatever I learn or have in mind. In writing I can untie so many problems or questions I have in mind and make up a small place for documenting whatever I've done or am doing.",
     info2: '',
     url: '',
     
@@ -48,7 +48,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'YouTube',
-    info: 'bluh bluh bluh',
+    info: 'One of the fun things about visualizing data is that it can talk with a wide range of people. As I think science and math should be intuitively instructed and tought, I took a step in this path and started making YouTube videos with brand new visualizations each time to both have fun and contribute to the online community, too.',
     info2: '',
     url: 'https://www.youtube.com/channel/UC5he3ZiPPZzjP_KZhq3LOHg',
     
