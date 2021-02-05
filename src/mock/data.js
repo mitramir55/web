@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project1.jpg',
+    img: 'project.jpg',
     title: 'Coding and Analysis',
     info: 'I love making cool visualizations and analysis that gives insights into the real world and Kaggle was one of the best places for me to get data and also share my thoughts with the world. You can see some of my notebooks and code by clicking on the picture below.',
     info2: '',
@@ -67,13 +67,8 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'YouTube',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      name: 'youtube',
+      url: 'https://www.youtube.com/channel/UC5he3ZiPPZzjP_KZhq3LOHg',
     },
     {
       id: nanoid(),
@@ -84,6 +79,11 @@ export const footerData = {
       id: nanoid(),
       name: 'github',
       url: 'https://github.com/mitramir55',
+    },,
+    {
+      id: nanoid(),
+      name: 'instagram',
+      url: 'https://www.instagram.com/mitra_mirshafiee/',
     },
   ],
 };
